@@ -10,6 +10,7 @@
   </head>
 
  <body>
+  <div id="flex-content-container">
     <!--navbar -->
     
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
@@ -44,5 +45,13 @@
      <% end %>
    
     <%= yield %>
+  </div>
+      <div id="footer">
+       <div class="container">
+        <b>Footer Here</b>
+        <br />
+        <%= link_to 'Link', '#' %>
+      </div>
+     </div>
   </body>
 </html>
